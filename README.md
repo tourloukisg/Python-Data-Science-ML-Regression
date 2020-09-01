@@ -1,2 +1,10 @@
 # Python-Data-Science-ML-Regression
 Demonstration of (Deep Learning-Keras) Regression &amp; Exploratory Analysis (House Price Prediction Dataset) -- Data Preparation /Feature Engineering
+
+In the first part of this project (Part A), an exploratory analysis (Python-Jupyter Notebook) is provided to highlight key relationships between multiple variables/sub-groups of different data types (numerical,categorical/object) that comprise the records of the 'House Price Prediction' dataset. The exploratory analysis allows the identification of meaningful insights in terms of the house price value variation(with respect to the independent variables of the dataset), its distribution and its correlation with the other dataset features. Moreover, Part A is focused on data preparation/manipulation of the imported dataset features(.csv file format, read as pandas dataframe) in order to apply basic data preprocessing/feature engineering methods and to convert categorical features into dummy variables.
+
+In the second part of this project (Part B), a Deep Learning model is constructed, where the selected independent dataset features are used as the neural network model inputs, with the house 'price' feature being the dependent variable. When the maximum number of epochs is reached, training stops and the model is capable of making house price predictions for different test input samples. That is the reason why the dataset records are split into two subsets a) the training samples (90%) and b) the test samples (10%). Tensorflow Keras library is selected for the construction of the neural network and the 'regression' capabilities of the machine learning model are evaluated by use of several performance metrics (i.e. RMSE, explained variance score, r-squared score & distribution of relative error(%).
+
+The Dataset (.csv file format) for this project has been obtained from Kaggle:
+
+"House Price Prediction" -- File: "data.csv" -- Source: https://www.kaggle.com/shree1992/housedata?select=data.csv
