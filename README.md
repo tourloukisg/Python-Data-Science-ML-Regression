@@ -1,5 +1,5 @@
 # Python-Data-Science-ML-Regression
-Demonstration of (Deep Learning-Keras) Regression &amp; Exploratory Analysis (House Price Prediction Dataset) -- Data Preparation /Feature Engineering
+Demonstration of (Deep Learning-Keras) Regression & Exploratory Analysis (House Price Prediction Dataset) -- Data Preparation /Feature Engineering
 
 In the first part of this project (Part A), an exploratory analysis (Python-Jupyter Notebook) is provided to highlight key relationships between multiple variables/sub-groups of different data types (numerical,categorical/object) that comprise the records of the 'House Price Prediction' dataset. The exploratory analysis allows the identification of meaningful insights in terms of the house price value variation(with respect to the independent variables of the dataset), its distribution and its correlation with the other dataset features. Moreover, Part A is focused on data preparation/manipulation of the imported dataset features(.csv file format, read as pandas dataframe) in order to apply basic data preprocessing/feature engineering methods and to convert categorical features into dummy variables.
 
